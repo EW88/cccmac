@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+        <event>
+		<id>2015030701</id>
+		<title>Fundamentals of Real Estate Investment</title>
+		<date>Mar 7th, 2015</date>
+	</event>
+	<event>
+		<id>2015012401</id>
+		<title>Due Diligence</title>
+		<date>Jan 24th, 2015</date>
+	</event>
+        <event>
+		<id>2014110401</id>
+		<title>BIPB Event Summary</title>
+		<date>Nov 4th, 2014</date>
+	</event>
+        <event>
+		<id>2014100401</id>
+		<title>Canadian Investment and Financing Workshop - International Trade - Episode One</title>
+		<date>Oct 4th, 2014</date>
+	</event>
+        <event>
+		<id>2014100402</id>
+		<title>Canadian Investment and Financing Workshop - International Trade - Episode Two</title>
+		<date>Oct 4th, 2014</date>
+	</event>
+        <event>
+		<id>2014060701</id>
+		<title>Mining Investment and Financing 101</title>
+		<date>Jun 7th, 2014</date>
+	</event>
+</events>

@@ -1,0 +1,54 @@
+#event {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#event h3 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#event p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+#event p:nth-of-type(1):first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #d80000;
+}
+
+#event .event-photo.right {
+    float: right;
+}
+
+#event .event-photo.left {
+    float: left;
+}
+
+#event .event-photo {
+    margin-right: -180px;
+}
+
+#event .event-photo img {
+    height: 260px;
+    padding: 20px;
+}
+
+#event .event-photo span {
+    display: inline-block;
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    width: 150px;
+    padding: 5px 15px;
+    background: rgba(238,238,238,0.8);
+    color: #d80000;
+    line-height: 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}

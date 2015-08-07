@@ -1,0 +1,32 @@
+
+
+#member {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#member #photo {
+    float: left;
+    padding: 100px 40px;
+    width: 180px;
+}
+
+#member #photo img {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+#member #profile {
+    float: left;
+    width: 700px;
+}
+
+#member #profile h3 {
+    text-align: left;
+}
+
+#member #profile p {
+    font-family:"Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    padding: 10px 0px;
+}

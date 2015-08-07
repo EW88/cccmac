@@ -1,0 +1,126 @@
+#events {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#events p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#events #event-list {
+    background: rgba(0,2,34,0.1);
+    width: 40%;
+    float: left;
+}
+
+#events #event-list ul {
+    list-style: none;
+}
+
+#events #event-list ul li {
+    padding: 20px;
+    cursor: pointer;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}
+
+#events #event-list ul li.current {
+    padding-right: 15px;
+    border-left: solid 5px #d80000;
+    background: rgba(255,255,255,1);
+}
+
+#events #event-list ul li .date {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#events #event-list ul li .title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#events #event-list ol {
+    padding: 20px;
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#events #event-list ol li {
+    float: left;
+    margin: 0px 3px;
+}
+
+#events #event-list ol li a {
+    color: #222222;
+    text-decoration: none;
+    display: block;
+    padding: 6px 8px;
+    background: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#events #event-list ol li.current a {
+    color: #d80000;
+    background: #bbbbbb;
+}
+
+#events #event-preview {
+    background: rgba(255,255,255,1) url(../../images/event-bg.jpg) bottom center no-repeat;
+    width: 60%;
+    min-height: 700px;
+    height: 100%;
+    float: left;
+}
+
+#events #event-preview h4 {
+    margin-top: 30px;
+    margin: 20px 50px;
+}
+
+#events #event-preview p {
+    margin: 20px 50px 240px 50px;
+}
+
+#events #event-preview span a:link, #events #event-preview span a:visited {
+    position: relative;
+    top: -150px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(239,21,21,0.8);
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-weight: bold;
+    line-height: 12px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}
+
+#events #event-preview span a:hover, #events #event-preview span a:focus {
+    color: #ffffff;
+}

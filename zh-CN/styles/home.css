@@ -1,0 +1,218 @@
+#slider {
+    width: 960px;
+    height: 350px;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+#slider .slides {
+    display: block;
+    list-style: none;
+    height: 350px;
+}
+
+#slider .slide {
+    float: left;
+    width: 960px;
+    height: 350px;
+}
+
+#slide-show {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#slide-show i {
+    font-size: 36px;
+    margin: 8px;
+    cursor: pointer;
+    position: relative;
+    bottom: 200px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#slide-show i:hover {
+    color: #d80000;
+}
+
+#slide-show #slider-prev {
+    float: left;
+}
+
+#slide-show #slider-next {
+    float: right;
+}
+
+#intro {
+    background: url(../../images/sub-bg-intro.jpg) no-repeat center;
+}
+
+#intro p {
+    color: #ffffff;
+    padding: 50px 0;
+    font-family:"Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    line-height: 30px;
+    cursor: default;
+}
+
+#events-ticker {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#events-ticker h3 {
+    background: url(../../images/event.png) left center no-repeat;
+    padding-left: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#ticker {
+}
+
+#ticker-container i {
+    padding-left: 48%;
+    font-size: 36px;
+    margin: 8px;
+    cursor: pointer;
+    color: #222222;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#ticker-container i:hover {
+    color: #d80000;
+}
+
+#ticker li {
+    color: #4e4e4e;
+    background: #eeeeee;
+    overflow: hidden;
+    height: 80px;
+    padding: 10px;
+    line-height: 30px;
+    list-style: none;
+    font-family:"Microsoft YaHei", 微软雅黑, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px dotted #2c8162;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ticker li:hover {
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ticker li span.date {
+    width: 200px;
+    color: #000000;
+    display: block;
+    float: left;
+    font-weight: bold;
+}
+
+#ticker li a:link, #ticker li a:visited {
+    color: #222222;
+    padding-left: 200px;
+    display: block;
+    text-decoration: none;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}
+
+#ticker li a:hover, #ticker li a:focus {
+    color: #d80000;
+}
+
+#cie {
+}
+
+#cie ul {
+    list-style: none;
+}
+
+#cie h4 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#cie p {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 0;
+}
+
+#cie p.emphasize {
+    font-size: 16px;
+    line-height: 16px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#cie .connection {
+    background: url(../../images/home-connection.jpg) top left repeat;
+}
+
+#cie .information {
+    background: url(../../images/home-information.jpg) top left repeat;
+}
+
+#cie .education {
+    background: url(../../images/home-education.jpg) top left repeat;
+}
+
+#cie .frame-content {
+    width: 640px;
+    height: 100%;
+    padding: 20px 50px;
+    background: rgba(255,255,255,0.6);
+}
+
+#cie .frame-closed .frame-content {
+    opacity: 0;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}
+
+#cie .frame-open .frame-content {
+    opacity: 100;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}

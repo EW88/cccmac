@@ -1,0 +1,83 @@
+#contact {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#contact a:link, #contact a:visited {
+    color: #222222;
+    text-decoration: none;
+    /* Mozilla */
+    -moz-transition: all 0.5s;
+    /* WebKit */
+    -webkit-transition: all 0.5s;
+    /* Opera */
+    -o-transition: all 0.5s;
+    /* Standard */
+    transition: all 0.5s;
+}
+
+#contact a:hover, #contact a:focus {
+    color: #d80000;
+}
+
+#contact .map {
+    margin: 50px auto;
+    width: 900px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    margin: 20px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact ul li span {
+    width: 45%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+}
+
+#contact ul li p {
+    padding-left: 47%;
+}
+
+#join {
+    background: rgba(34,34,34,0.8);
+    padding: 30px 0px 50px 0px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+#join .join-doc {
+    float: left;
+    width: 320px;
+    text-align: center;
+}
+
+#join .join-doc span {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding: 20px 0;
+}
+
+#join .join-doc a:link, #join .join-doc a:visited {
+    /* Mozilla */
+    -moz-transition: all 0.3s;
+    /* WebKit */
+    -webkit-transition: all 0.3s;
+    /* Opera */
+    -o-transition: all 0.3s;
+    /* Standard */
+    transition: all 0.3s;
+}
+
+#join .join-doc a:hover, #join .join-doc a:focus {
+    opacity: 0.8;
+}

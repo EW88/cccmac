@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+        <event>
+		<id>2015030701</id>
+		<title>3月7日 讲座回顾</title>
+		<date>2015年3月7日</date>
+	</event>
+	<event>
+		<id>2015012401</id>
+		<title>1月24日 讲座回顾</title>
+		<date>2015年1月24日</date>
+	</event>
+        <event>
+		<id>2014110401</id>
+		<title>11月4日 BIPB会议回顾</title>
+		<date>2014年11月4日</date>
+	</event>
+        <event>
+		<id>2014100401</id>
+		<title>10月4日 讲座回顾</title>
+		<date>2014年10月4日</date>
+	</event>
+        <event>
+		<id>2014100402</id>
+		<title>加拿大投资和融资 系列讲座之二</title>
+		<date>2014年10月4日</date>
+	</event>
+        <event>
+		<id>2014060701</id>
+		<title>矿业投资和融资 101知识讲座</title>
+		<date>2014年6月7日</date>
+	</event>
+</events>
